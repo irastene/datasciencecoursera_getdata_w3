@@ -1,5 +1,5 @@
 ### Original data
-Original data could be downloaded [from here](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones). 
+Original data could be downloaded [from here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip ). 
 This Human Activity Recognition Using Smartphones dataset was collected for 30 volunteers and 6 activities. A lot of measurements of sensor signals were made. 
 
 
@@ -30,7 +30,7 @@ Features are normalized and bounded within [-1,1]. Names of measurements (see li
 
 Complete list of variables:
 * "activity" - activity label (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)              
-* "subject" - an identifier of the subject who carried out the experiment                  
+* "subject" - an identifier of the subject who carried out the experiment (1..30)                
 * "tBodyAcc-mean()-X"          
 * "tBodyAcc-mean()-Y"          
 * "tBodyAcc-mean()-Z"          
