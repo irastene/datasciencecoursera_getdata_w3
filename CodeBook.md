@@ -10,7 +10,7 @@ R script run_analysis.R provided in this repository makes fallowing work:
 * merges the training (UCI HAR Dataset/train/subject_train.txt) and the test (UCI HAR Dataset/test/subject_test.txt) sets of subjects (volunteers);
 * extracts only the measurements on the mean and standard deviation for each measurement (using all features file "UCI HAR Dataset/features.txt"); 
 * uses descriptive activity names ("UCI HAR Dataset/activity_labels.txt") to name the activities;
-* creates one data set with activity, subject and measurements; 
+* creates one data frame with activity, subject and measurements; 
 * labels the data set with descriptive variable names ("activity", "subject", features names from original data);
 * creates a second, independent tidy data set with the average of each variable for each activity and each subject;
 * writes tidy data set into files tidy_data_set.csv and  tidy_data_set.txt.
