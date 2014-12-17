@@ -16,24 +16,21 @@ R script run_analysis.R provided in this repository makes fallowing work:
 * writes tidy data set into files tidy_data_set.csv and  tidy_data_set.txt.
 
 ### Tidy data variables list
-
-
-* "activity" - activity label (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)                 
-* "subject" - an identifier of the subject who carried out the experiment                  
-
 Features are normalized and bounded within [-1,1]. Names of measurements (see list below) could be read as fallows:
-	* prefix 't' - time
-	* prefix 'f' - frequency domain signals
-	* '-X', '-Y', '-Z' -  3-axial signals in the X, Y and Z directions 
-	* 'tAcc-XYZ', 'tGyro-XYZ' - accelerometer and gyroscope 3-axial raw signals 
-	* 'tBodyAcc-XYZ', 'tGravityAcc-XYZ' - acceleration signal separated into body and gravity acceleration signals 
-	* 'tBodyAccJerk-XYZ', 'tBodyGyroJerk-XYZ' - body linear acceleration and angular velocity derived in time to obtain Jerk signals
-	* 'tBodyAccMag', 'tGravityAccMag', 'tBodyAccJerkMag', 'tBodyGyroMag', 'tBodyGyroJerkMag' - magnitude of three-dimensional signals calculated using the Euclidean norm
-	* 'fBodyAcc-XYZ', 'fBodyAccJerk-XYZ', 'fBodyGyro-XYZ', 'fBodyAccJerkMag', 'fBodyGyroMag', 'fBodyGyroJerkMag' - Fast Fourier Transform (FFT) applied to some of signals
-	* 'mean()' - estimated mean for above mentioned signals 
-	* 'std()' - estimated standard deviation for above mentioned signals 
+* prefix 't' - time
+* prefix 'f' - frequency domain signals
+* '-X', '-Y', '-Z' -  3-axial signals in the X, Y and Z directions 
+* 'tAcc-XYZ', 'tGyro-XYZ' - accelerometer and gyroscope 3-axial raw signals 
+* 'tBodyAcc-XYZ', 'tGravityAcc-XYZ' - acceleration signal separated into body and gravity acceleration signals 	
+* 'tBodyAccJerk-XYZ', 'tBodyGyroJerk-XYZ' - body linear acceleration and angular velocity derived in time to obtain Jerk signals
+* 'tBodyAccMag', 'tGravityAccMag', 'tBodyAccJerkMag', 'tBodyGyroMag', 'tBodyGyroJerkMag' - magnitude of three-dimensional signals calculated using the Euclidean norm
+* 'fBodyAcc-XYZ', 'fBodyAccJerk-XYZ', 'fBodyGyro-XYZ', 'fBodyAccJerkMag', 'fBodyGyroMag', 'fBodyGyroJerkMag' - Fast Fourier Transform (FFT) applied to some of signals
+* 'mean()' - estimated mean for above mentioned signals 
+* 'std()' - estimated standard deviation for above mentioned signals
 
-
+Complete list of variables:
+* "activity" - activity label (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)              
+* "subject" - an identifier of the subject who carried out the experiment                  
 * "tBodyAcc-mean()-X"          
 * "tBodyAcc-mean()-Y"          
 * "tBodyAcc-mean()-Z"          
